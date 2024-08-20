@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hometask3</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        color: darkblue;
+        text-transform: capitalize;
+      }
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="6">Time Table</th>
+        </tr>
+      </thead>
+      <tr>
+        <td rowspan="6">Hours</td>
+        <td style="padding-left: 3px">mon</td>
+        <td style="padding-left: 15px">tue</td>
+        <td style="padding-left: 3px">wed</td>
+        <td style="padding-left: 15px">thu</td>
+        <td style="padding-left: 15px">fri</td>
+      </tr>
+      <tr>
+        <td>math</td>
+        <td>science</td>
+        <td>math</td>
+        <td>science</td>
+        <td style="padding-left: 15px">art</td>
+      </tr>
+      <tr>
+        <td>math</td>
+        <td>science</td>
+        <td>math</td>
+        <td>science</td>
+        <td style="padding-left: 15px">art</td>
+      </tr>
+      <tr>
+        <td colspan="5" style="padding-left: 80px">LUNCH</td>
+      </tr>
+      <tr>
+        <td>math</td>
+        <td>science</td>
+        <td>math</td>
+        <td>science</td>
+        <td rowspan="2">Project</td>
+      </tr>
+      <tr>
+        <td>math</td>
+        <td>science</td>
+        <td>math</td>
+        <td>science</td>
+      </tr>
+    </table>
+    <br /><br /><br />
+
+    <form action="">
+      <h1>GeeksforGeeks</h1>
+      <h2>Basic form design using HTML</h2>
+      <fieldset>
+        <legend>Personal details</legend>
+        <label for="name">First Name:</label>
+        <input type="text" id="name" name="name" /> <br />
+        <br />
+        <label for="surname">Last Name :</label>
+        <input type="text" id="surname" name="name" /> <br /><br />
+        <label for="man"></label>
+        Gender:
+        <input type="radio" name="gender" value="man" id="man" /> Male
+        <label for="woman">
+          <input type="radio" name="gender" value="woman" /> Female
+        </label>
+        <br /><br />
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" /> <br /><br />
+        <label for="date">Date of birth: </label>
+        <input type="datetime-local" name="date" id="date" /> <br /><br />
+        <label for="adress">Adress:</label> <br />
+        <textarea name="adress" id="adress" rows="5" cols="30"></textarea>
+        <br />
+        <br />
+        <input type="submit" id="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
